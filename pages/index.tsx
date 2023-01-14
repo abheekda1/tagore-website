@@ -18,10 +18,10 @@ const people = [
         name: 'Abheek Dhawan',
         image: '/img/team/abheek-dhawan.png',
         role: 'Coach',
-        bio: "An avid programmer, Abheek competed in FLL for 4 years, achieving the Champion's Award in 2019 at the Razorback Invitational. He has continued with his robotics journey as a programmer for the Ladue HWHS FRC team.",
+        bio: "An avid programmer and astronomer, Abheek has particicipated in many STEM-related competitions and is continuing his CS journey as co-president for the Ladue Computer Science Club and as a programmer for the Ladue High School FRC team.",
         links: [
             {
-                link: 'https://github.com/ADawesomeguy',
+                link: 'https://github.com/abheekda1',
                 node: (
                     <FaGithub className='inline-block mr-2 mb-2 w-4 fill-slate-700 dark:fill-slate-50' />
                 ),
@@ -44,19 +44,19 @@ const people = [
         name: 'Aric Wang',
         image: '/img/team/aric-wang.png',
         role: 'Coach',
-        bio: "Aric Wang is a 16-year-old rising junior at LHWHS. In his freetime, he enjoys playing piano, drawing, and playing online videogames with his friends. He participated in FLL for 3 years, achieving the Champion's Award in 2019 at the Razorback Invitational.",
+        bio: "Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.",
     },
     {
         name: 'Will Feng',
         image: '/img/team/will-feng.png',
         role: 'Coach',
-        bio: 'Will Feng, a rising junior at LHWHS, is a dedicated programmer who enjoys challenges and problem solving. He plays water polo and participates in many clubs and activities. He hopes one day to become a engineer.',
+        bio: 'Will Feng, a junior at LHWHS, is a dedicated programmer who enjoys challenges and problem solving. He plays water polo and participates in many clubs and activities. He hopes one day to become a engineer.',
     },
     {
         name: 'Samuel Wiseman',
         image: '/img/team/samuel-wiseman.png',
         role: 'Coach',
-        bio: 'Samuel Wiseman, a rising junior at LHWHS who is pursuing a software engineering career. Programmer with over 6 years experience, enrolled at numerous clubs and avid Java hater.',
+        bio: 'Samuel Wiseman, a junior at LHWHS who is pursuing a software engineering career. Programmer with over 6 years experience, enrolled at numerous clubs and avid Java hater.',
         links: [
             {
                 link: 'https://github.com/notSam25',
@@ -70,7 +70,7 @@ const people = [
         name: 'Aiden Lambert',
         image: '/img/team/aiden-lambert.png',
         role: 'Coach',
-        bio: "Aiden is a rising junior and enjoys writing close-to-the-metal code. His game engine, Eugene (work in progress), is an example of his interest in low level graphics. During the spring semester, however, all of his programming energy is focused on his second hobby: writing code for the Ladue highschool's robotics team.",
+        bio: "Aiden is a junior and enjoys writing close-to-the-metal code. His game engine, Eugene (work in progress), is an example of his interest in low level graphics. During the spring semester, however, all of his programming energy is focused on his second hobby: writing code for the Ladue highschool's robotics team.",
         links: [
             {
                 link: 'https://github.com/theVerySharpFlat',
@@ -84,7 +84,7 @@ const people = [
         name: 'Ashmit Tendolkar',
         image: '/img/team/ashmit-tendolkar.png',
         role: 'Coach',
-        bio: 'Ashmit is a rising junior who enjoys programming in his free time. His other hobbies include tennis and guitar as well as playing video games. He also hopes to be an aerospace engineer one day.',
+        bio: 'Ashmit is a junior who enjoys programming in his free time. His other hobbies include tennis and guitar as well as playing video games. He also hopes to be an aerospace engineer one day.',
     },
 ];
 
