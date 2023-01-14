@@ -54,7 +54,7 @@ export default function Layout({
                         .toLowerCase()
                         .split(' ')
                         .map((w) => w.charAt(0).toUpperCase() + w.slice(1)) +
-                        ' | CASTL FLL'}
+                        ' | CASTL'}
                 </title>
 
                 {/* metadata */}
@@ -70,18 +70,18 @@ export default function Layout({
                             .split(' ')
                             .map(
                                 (w) => w.charAt(0).toUpperCase() + w.slice(1)
-                            ) + ' | CASTL FLL'
+                            ) + ' | CASTL'
                     }
                 />
                 <meta property='og:type' content='website' />
-                <meta property='og:url' content='https://fllstl.codes' />
+                <meta property='og:url' content='https://codingacademystl.org' />
                 <meta
                     property='og:image'
-                    content='https://fllstl.codes/img/logo.png'
+                    content='https://codingacademystl.org/img/logo.png'
                 />
                 <meta
                     property='og:description'
-                    content='Teaching FLL team members with all levels of programming experience through engaging, effective, and hands-on lessons for free'
+                    content='Teaching students with all levels of programming experience through engaging, effective, and hands-on lessons for free'
                 />
                 <meta name='theme-color' content='#334155' />
             </Head>

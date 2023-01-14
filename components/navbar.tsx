@@ -32,7 +32,7 @@ export default function Navbar({
                 <Link href='/' className='pr-2'>
                     <a className='flex items-center'>
                         <span className='self-center text-xl font-semibold whitespace-nowrap text-slate-700 md:text-slate-700 dark:text-white'>
-                            CASTL FLL
+                            CASTL
                         </span>
                     </a>
                 </Link>
