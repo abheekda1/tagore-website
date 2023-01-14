@@ -15,7 +15,7 @@ export default async function handler(
 ) {
     if (req.method?.toLowerCase() === 'post') {
         const transporter = nodemailer.createTransport({
-            host: 'mail.privateemail.com ',
+            host: 'mail.privateemail.com',
             port: 465,
             secure: true,
             auth: {
