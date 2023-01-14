@@ -41,18 +41,6 @@ const people = [
         ],
     },
     {
-        name: 'Aric Wang',
-        image: '/img/team/aric-wang.png',
-        role: 'Coach',
-        bio: 'Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.',
-    },
-    {
-        name: 'Will Feng',
-        image: '/img/team/will-feng.png',
-        role: 'Coach',
-        bio: 'Will Feng, a junior at LHWHS, is a dedicated programmer who enjoys challenges and problem solving. He plays water polo and participates in many clubs and activities. He hopes one day to become a engineer.',
-    },
-    {
         name: 'Samuel Wiseman',
         image: '/img/team/samuel-wiseman.png',
         role: 'Coach',
@@ -79,6 +67,18 @@ const people = [
                 ),
             },
         ],
+    },
+    {
+        name: 'Aric Wang',
+        image: '/img/team/aric-wang.png',
+        role: 'Coach',
+        bio: 'Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.',
+    },
+    {
+        name: 'Will Feng',
+        image: '/img/team/will-feng.png',
+        role: 'Coach',
+        bio: 'Will Feng, a junior at LHWHS, is a dedicated programmer who enjoys challenges and problem solving. He plays water polo and participates in many clubs and activities. He hopes one day to become a engineer.',
     },
     {
         name: 'Ashmit Tendolkar',
