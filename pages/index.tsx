@@ -18,7 +18,7 @@ const people = [
         name: 'Abheek Dhawan',
         image: '/img/team/abheek-dhawan.png',
         role: 'Coach',
-        bio: "An avid programmer and astronomer, Abheek has particicipated in many STEM-related competitions and is continuing his CS journey as co-president for the Ladue Computer Science Club and as a programmer for the Ladue High School FRC team.",
+        bio: 'An avid programmer and astronomer, Abheek has particicipated in many STEM-related competitions and is continuing his CS journey as co-president for the Ladue Computer Science Club and as a programmer for the Ladue High School FRC team.',
         links: [
             {
                 link: 'https://github.com/abheekda1',
@@ -44,7 +44,7 @@ const people = [
         name: 'Aric Wang',
         image: '/img/team/aric-wang.png',
         role: 'Coach',
-        bio: "Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.",
+        bio: 'Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.',
     },
     {
         name: 'Will Feng',
@@ -138,7 +138,8 @@ const About: NextPage = () => {
                         What do we do?
                     </h1>
                     <p className='block w-full text-center text-lg text-slate-800 dark:text-slate-400 mb-3'>
-                        We provide programming coaching to students of all skill levels.
+                        We provide programming coaching to students of all skill
+                        levels.
                     </p>
                     <div className='grid grid-cols-2 grid-rows-3 gap-4'>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
@@ -296,9 +297,7 @@ const About: NextPage = () => {
                                 <option value='Intermediate students'>
                                     Intermediate students
                                 </option>
-                                <option value='Tutoring'>
-                                    Tutoring
-                                </option>
+                                <option value='Tutoring'>Tutoring</option>
                                 <option value='Other'>Other</option>
                             </select>
                         </div>
