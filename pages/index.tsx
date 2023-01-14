@@ -191,7 +191,7 @@ const About: NextPage = () => {
                     </h1>
                     <p className='block w-full text-center text-lg text-slate-800 dark:text-slate-400 mb-3'>
                         See how you can take advantage of the free services
-                        provided by our experienced alumni!
+                        provided by our experienced coaches!
                     </p>
                     <div className='flex flex-col justify-center flex-wrap rounded-xl p-4 md:p-8 md:pl-12 md:pb-0 text-slate-700 dark:text-slate-50'>
                         <div className='flex flex-col md:flex-row  items-start md:space-x-4 text-center md:text-left my-3 md:my-5'>
@@ -244,7 +244,7 @@ const About: NextPage = () => {
                                 <p className='text-base md:text-lg'>
                                     Once everything has been decided, one of our
                                     qualified teachers will come to help the
-                                    team members learn programming interactively
+                                    student(s) learn programming interactively
                                     and effectively. Once finished, we will
                                     always be available to talk more and provide
                                     further support and assistance.
