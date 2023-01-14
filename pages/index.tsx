@@ -138,8 +138,7 @@ const About: NextPage = () => {
                         What do we do?
                     </h1>
                     <p className='block w-full text-center text-lg text-slate-800 dark:text-slate-400 mb-3'>
-                        We provide programming coaching to participants and
-                        members of all skill levels.
+                        We provide programming coaching to students of all skill levels.
                     </p>
                     <div className='grid grid-cols-2 grid-rows-3 gap-4'>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
@@ -158,11 +157,7 @@ const About: NextPage = () => {
                         </div>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-200 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
                             <p className='text-sm md:text-base max-w-sm md:max-w-md lg:max-w-lg my-auto'>
-                                Intermediate programmers will expand their
-                                knowledge by learning concepts further targeting
-                                the SPIKE PRIME robots themselves, such as
-                                movement and sensing, while continuing to use
-                                concepts from previously learned topics.
+                                Coming soon!
                             </p>
                         </div>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
