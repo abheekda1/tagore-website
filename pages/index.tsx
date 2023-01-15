@@ -18,7 +18,7 @@ const people = [
         name: 'Abheek Dhawan',
         image: '/img/team/abheek-dhawan.png',
         role: 'Mentor',
-        bio: "An avid programmer and astronomer, Abheek has particicipated in many STEM-related competitions and is continuing his CS journey as co-president for the Ladue Computer Science Club and as a programmer for the Ladue High School FRC team.",
+        bio: 'An avid programmer and astronomer, Abheek has particicipated in many STEM-related competitions and is continuing his CS journey as co-president for the Ladue Computer Science Club and as a programmer for the Ladue High School FRC team.',
         links: [
             {
                 link: 'https://github.com/abheekda1',
@@ -72,7 +72,7 @@ const people = [
         name: 'Aric Wang',
         image: '/img/team/aric-wang.png',
         role: 'Outreach Coordinator',
-        bio: "Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.",
+        bio: 'Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.',
     },
     {
         name: 'Ashmit Tendolkar',
