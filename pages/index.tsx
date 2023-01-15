@@ -17,7 +17,7 @@ const people = [
     {
         name: 'Abheek Dhawan',
         image: '/img/team/abheek-dhawan.png',
-        role: 'Coach',
+        role: 'Mentor',
         bio: "An avid programmer and astronomer, Abheek has particicipated in many STEM-related competitions and is continuing his CS journey as co-president for the Ladue Computer Science Club and as a programmer for the Ladue High School FRC team.",
         links: [
             {
@@ -43,19 +43,19 @@ const people = [
     {
         name: 'Aric Wang',
         image: '/img/team/aric-wang.png',
-        role: 'Coach',
+        role: 'Mentor',
         bio: "Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.",
     },
     {
         name: 'Will Feng',
         image: '/img/team/will-feng.png',
-        role: 'Coach',
+        role: 'Mentor',
         bio: 'Will Feng, a junior at LHWHS, is a dedicated programmer who enjoys challenges and problem solving. He plays water polo and participates in many clubs and activities. He hopes one day to become a engineer.',
     },
     {
         name: 'Samuel Wiseman',
         image: '/img/team/samuel-wiseman.png',
-        role: 'Coach',
+        role: 'Mentor',
         bio: 'Samuel Wiseman, a junior at LHWHS who is pursuing a software engineering career. Programmer with over 6 years experience, enrolled at numerous clubs and avid Java hater.',
         links: [
             {
@@ -69,7 +69,7 @@ const people = [
     {
         name: 'Aiden Lambert',
         image: '/img/team/aiden-lambert.png',
-        role: 'Coach',
+        role: 'Mentor',
         bio: "Aiden is a junior and enjoys writing close-to-the-metal code. His game engine, Eugene (work in progress), is an example of his interest in low level graphics. During the spring semester, however, all of his programming energy is focused on his second hobby: writing code for the Ladue highschool's robotics team.",
         links: [
             {
@@ -83,7 +83,7 @@ const people = [
     {
         name: 'Ashmit Tendolkar',
         image: '/img/team/ashmit-tendolkar.png',
-        role: 'Coach',
+        role: 'Mentor',
         bio: 'Ashmit is a junior who enjoys programming in his free time. His other hobbies include tennis and guitar as well as playing video games. He also hopes to be an aerospace engineer one day.',
     },
 ];
@@ -124,7 +124,7 @@ const About: NextPage = () => {
                             key={idx}
                             name={p.name}
                             pic={p.image || '/img/team/profile-pic-default.jpg'}
-                            role={p.role || 'Coach'}
+                            role={p.role || 'Mentor'}
                             bio={p.bio || ''}
                             links={p.links}
                         />
@@ -239,7 +239,7 @@ const About: NextPage = () => {
                             </div>
                             <div className='mx-auto md:mx-0 flex-auto md:max-w-lg lg:max-w-2xl'>
                                 <h5 className='no-underline font-bold text-lg md:text-xl lg:text-2xl'>
-                                    Coaching
+                                    Mentoring
                                 </h5>
                                 <p className='text-base md:text-lg'>
                                     Once everything has been decided, one of our
