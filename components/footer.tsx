@@ -88,7 +88,10 @@ export default function Footer() {
                             ></path>
                         </svg>
                     </a>
-                    <a href='https://github.com/Coding-Academy-STL' className=''>
+                    <a
+                        href='https://github.com/Coding-Academy-STL'
+                        className=''
+                    >
                         <svg
                             aria-hidden='true'
                             focusable='false'

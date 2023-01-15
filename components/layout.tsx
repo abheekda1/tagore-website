@@ -74,7 +74,10 @@ export default function Layout({
                     }
                 />
                 <meta property='og:type' content='website' />
-                <meta property='og:url' content='https://codingacademystl.org' />
+                <meta
+                    property='og:url'
+                    content='https://codingacademystl.org'
+                />
                 <meta
                     property='og:image'
                     content='https://codingacademystl.org/img/logo.png'

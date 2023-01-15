@@ -41,10 +41,18 @@ const people = [
         ],
     },
     {
-        name: 'Aric Wang',
-        image: '/img/team/aric-wang.png',
-        role: 'Outreach Coordinator',
-        bio: "Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.",
+        name: 'Aiden Lambert',
+        image: '/img/team/aiden-lambert.png',
+        role: 'Mentor',
+        bio: "Aiden is a junior and enjoys writing close-to-the-metal code. His game engine, Eugene (work in progress), is an example of his interest in low level graphics. During the spring semester, however, all of his programming energy is focused on his second hobby: writing code for the Ladue highschool's robotics team.",
+        links: [
+            {
+                link: 'https://github.com/theVerySharpFlat',
+                node: (
+                    <FaGithub className='inline-block mr-2 mb-2 w-4 fill-slate-700 dark:fill-slate-50' />
+                ),
+            },
+        ],
     },
     {
         name: 'Samuel Wiseman',
@@ -61,18 +69,10 @@ const people = [
         ],
     },
     {
-        name: 'Aiden Lambert',
-        image: '/img/team/aiden-lambert.png',
-        role: 'Mentor',
-        bio: "Aiden is a junior and enjoys writing close-to-the-metal code. His game engine, Eugene (work in progress), is an example of his interest in low level graphics. During the spring semester, however, all of his programming energy is focused on his second hobby: writing code for the Ladue highschool's robotics team.",
-        links: [
-            {
-                link: 'https://github.com/theVerySharpFlat',
-                node: (
-                    <FaGithub className='inline-block mr-2 mb-2 w-4 fill-slate-700 dark:fill-slate-50' />
-                ),
-            },
-        ],
+        name: 'Aric Wang',
+        image: '/img/team/aric-wang.png',
+        role: 'Outreach Coordinator',
+        bio: "Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.",
     },
     {
         name: 'Ashmit Tendolkar',
@@ -132,7 +132,8 @@ const About: NextPage = () => {
                         What do we do?
                     </h1>
                     <p className='block w-full text-center text-lg text-slate-800 dark:text-slate-400 mb-3'>
-                        We provide programming coaching to students of all skill levels.
+                        We provide programming coaching to students of all skill
+                        levels.
                     </p>
                     <div className='grid grid-cols-2 grid-rows-3 gap-4'>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
@@ -290,9 +291,7 @@ const About: NextPage = () => {
                                 <option value='Intermediate students'>
                                     Intermediate students
                                 </option>
-                                <option value='Tutoring'>
-                                    Tutoring
-                                </option>
+                                <option value='Tutoring'>Tutoring</option>
                                 <option value='Other'>Other</option>
                             </select>
                         </div>
