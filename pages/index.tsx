@@ -43,14 +43,8 @@ const people = [
     {
         name: 'Aric Wang',
         image: '/img/team/aric-wang.png',
-        role: 'Mentor',
+        role: 'Outreach Coordinator',
         bio: "Aric Wang is a 16-year-old junior at LHWHS. In his free time, he enjoys playing piano, drawing, and playing online videogames with his friends.",
-    },
-    {
-        name: 'Will Feng',
-        image: '/img/team/will-feng.png',
-        role: 'Mentor',
-        bio: 'Will Feng, a junior at LHWHS, is a dedicated programmer who enjoys challenges and problem solving. He plays water polo and participates in many clubs and activities. He hopes one day to become a engineer.',
     },
     {
         name: 'Samuel Wiseman',
@@ -83,7 +77,7 @@ const people = [
     {
         name: 'Ashmit Tendolkar',
         image: '/img/team/ashmit-tendolkar.png',
-        role: 'Mentor',
+        role: 'Social Media Manager',
         bio: 'Ashmit is a junior who enjoys programming in his free time. His other hobbies include tennis and guitar as well as playing video games. He also hopes to be an aerospace engineer one day.',
     },
 ];
