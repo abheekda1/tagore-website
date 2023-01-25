@@ -137,7 +137,7 @@ const About: NextPage = () => {
                     </p>
                     <div className='grid grid-cols-2 grid-rows-3 gap-4'>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
-                            <h1 className='text-2xl md:text-4xl break-words max-w-sm md:max-w-md lg:max-w-lg max-h-sm md:max-h-md lg:max-h-lg font-bold sm:text-base my-auto'>
+                            <h1 className='text-base md:text-4xl break-words max-w-sm md:max-w-md lg:max-w-lg max-h-sm md:max-h-md lg:max-h-lg font-bold sm:text-2xl my-auto'>
                                 Young Students
                             </h1>
                         </div>
@@ -161,12 +161,12 @@ const About: NextPage = () => {
                             </p>
                         </div>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
-                            <h1 className='text-2xl md:text-4xl break-words max-w-sm md:max-w-md lg:max-w-lg max-h-sm md:max-h-md lg:max-h-lg font-bold sm:text-base my-auto'>
+                            <h1 className='text-base md:text-4xl break-words max-w-sm md:max-w-md lg:max-w-lg max-h-sm md:max-h-md lg:max-h-lg font-bold sm:text-2xl my-auto'>
                                 Intermediate
                             </h1>
                         </div>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
-                            <h1 className='text-2xl md:text-4xl break-words max-w-sm md:max-w-md lg:max-w-lg max-h-sm md:max-h-md lg:max-h-lg font-bold sm:text-base my-auto'>
+                            <h1 className='text-base md:text-4xl break-words max-w-sm md:max-w-md lg:max-w-lg max-h-sm md:max-h-md lg:max-h-lg font-bold sm:text-2xl my-auto'>
                                 Tutoring
                             </h1>
                         </div>
