@@ -31,7 +31,12 @@ export default function Navbar({
             <div className='flex flex-wrap justify-between md:justify-start items-center mx-auto'>
                 <Link href='/' className='pr-2'>
                     <a className='flex items-center'>
-                        <img width={50} height={50} alt='CASTL logo' src='/logo-trans.png' />{' '}
+                        <img
+                            width={50}
+                            height={50}
+                            alt='CASTL logo'
+                            src='/logo-trans.png'
+                        />{' '}
                         <span className='self-center text-xl font-semibold whitespace-nowrap text-slate-700 md:text-slate-700 dark:text-white'>
                             CASTL
                         </span>

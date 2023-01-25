@@ -13,6 +13,8 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
+import { motion } from 'framer-motion';
+
 const people = [
     {
         name: 'Abheek Dhawan',
@@ -102,7 +104,9 @@ const About: NextPage = () => {
                     alertType='info'
                     content="Thank you for sending us a message! You should receive a confirmation email soon. If you don't, please email us directly at contact@codingacademystl.org."
                 />
-                <div
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     id='about'
                     className='flex flex-wrap px-5 justify-center overflow-hidden pt-12 pb-8 lg:py-24 transition-all'
                 >
@@ -123,8 +127,10 @@ const About: NextPage = () => {
                             links={p.links}
                         />
                     ))}
-                </div>
-                <div
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     id='learn-more'
                     className='flex flex-wrap px-5 justify-center overflow-hidden pt-12 pb-8 lg:py-24 transition-all'
                 >
@@ -181,8 +187,10 @@ const About: NextPage = () => {
                             </p>
                         </div>
                     </div>
-                </div>
-                <div
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     id='get-started'
                     className='flex flex-wrap px-5 justify-center overflow-hidden pt-12 pb-8 lg:py-24 transition-all'
                 >
@@ -252,8 +260,10 @@ const About: NextPage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     id='contact-us'
                     className='flex flex-wrap px-5 justify-center overflow-hidden pt-12 pb-8 lg:py-24 transition-all'
                 >
@@ -324,7 +334,7 @@ const About: NextPage = () => {
                             contact@codingacademystl.org
                         </a>
                     </p>
-                </div>
+                </motion.div>
             </>
         </Layout>
     );
