@@ -147,12 +147,17 @@ const About: NextPage = () => {
                                 programming concepts such as variables and
                                 functions, as well as their usages and
                                 applications through fun activities and
-                                projects.
+                                projects. This program builds up to our next
+                                one, in which students learn Python.
                             </p>
                         </div>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-200 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
                             <p className='text-sm md:text-base max-w-sm md:max-w-md lg:max-w-lg my-auto'>
-                                Coming soon!
+                                Students will begin with an introduction to one
+                                of the most popular programming
+                                languages&#8212;Python! With interactive lessons
+                                and activities, they will finish off the program
+                                with a final game or project of their choosing.
                             </p>
                         </div>
                         <div className='flex flex-col bg-slate-50 text-slate-700 dark:bg-gray-700 dark:text-slate-400 shadow-xl rounded-lg text-center px-2 py-2 md:py-8'>
