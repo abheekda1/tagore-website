@@ -84,7 +84,7 @@ export default function Layout({
                 />
                 <meta
                     property='og:description'
-                    content='Teaching students with all levels of programming experience through engaging, effective, and hands-on lessons for free'
+                    content='A podcast about finding philosophy in books.'
                 />
                 <meta name='theme-color' content='#334155' />
                 <link rel='icon' type='image/png' href='/logo-trans.png' />
