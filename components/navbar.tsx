@@ -34,11 +34,12 @@ export default function Navbar({
                         <img
                             width={50}
                             height={50}
-                            alt='CASTL logo'
+                            alt='Philosophy in Pages logo'
                             src='/logo-trans.png'
+                            className='mr-2'
                         />{' '}
                         <span className='self-center text-xl font-semibold whitespace-nowrap text-slate-700 md:text-slate-700 dark:text-white'>
-                            CASTL
+                            Philosophy in Pages
                         </span>
                     </a>
                 </Link>

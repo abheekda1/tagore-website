@@ -54,7 +54,7 @@ export default function Layout({
                         .toLowerCase()
                         .split(' ')
                         .map((w) => w.charAt(0).toUpperCase() + w.slice(1)) +
-                        ' | CASTL'}
+                        ' | P in P'}
                 </title>
 
                 {/* metadata */}
@@ -70,23 +70,24 @@ export default function Layout({
                             .split(' ')
                             .map(
                                 (w) => w.charAt(0).toUpperCase() + w.slice(1)
-                            ) + ' | CASTL'
+                            ) + ' | P in P'
                     }
                 />
                 <meta property='og:type' content='website' />
                 <meta
                     property='og:url'
-                    content='https://codingacademystl.org'
+                    content='https://philosophyinpages.com'
                 />
                 <meta
                     property='og:image'
-                    content='https://codingacademystl.org/img/logo.png'
+                    content='https://philosophyinpages.com/img/logo.png'
                 />
                 <meta
                     property='og:description'
                     content='Teaching students with all levels of programming experience through engaging, effective, and hands-on lessons for free'
                 />
                 <meta name='theme-color' content='#334155' />
+                <link rel='icon' type='image/png' href='/logo-trans.png' />
             </Head>
             <div className={cx({ dark: isDarkMode }, 'transition-colors')}>
                 <div
