@@ -89,7 +89,7 @@ export default function Footer() {
                         </svg>
                     </a>
                     <a
-                        href='https://github.com/Coding-Academy-STL'
+                        href='#!'
                         className=''
                     >
                         <svg
