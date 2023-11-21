@@ -1,6 +1,6 @@
 import { ReactNode, useState } from 'react';
 
-type AlertType = 'success' | 'info' | 'alert' | 'warning' | 'error';
+type AlertType = 'success' | 'info' | 'alert' | 'warning' | 'error' | 'neutral';
 
 import cx from 'classnames';
 
@@ -23,6 +23,9 @@ const getAlertBgClass = (alertType: AlertType) => {
         case 'error':
             return 'bg-red-100';
             break;
+        case 'neutral':
+            return 'bg-slate-100';
+            break;
     }
 };
 
@@ -42,6 +45,9 @@ const getAlertBorderClass = (alertType: AlertType) => {
             break;
         case 'error':
             return 'border-red-400';
+            break;
+        case 'neutral':
+            return 'border-slate-400';
             break;
     }
 };
@@ -63,6 +69,9 @@ const getAlertFontClass = (alertType: AlertType) => {
         case 'error':
             return 'text-red-700';
             break;
+        case 'neutral':
+            return 'text-slate-700';
+            break;
     }
 };
 
@@ -72,7 +81,7 @@ export default function Alert({
     hidden,
 }: {
     alertType: AlertType;
-    content: string;
+    content: ReactNode;
     hidden: boolean;
 }) {
     const [isRemoved, setRemoved] = useState(false);

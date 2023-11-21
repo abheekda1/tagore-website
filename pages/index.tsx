@@ -18,7 +18,7 @@ import { motion } from 'framer-motion';
 const people = [
     {
         name: 'Abheek Dhawan',
-        image: '/img/team/abheek-dhawan.png',
+        image: '/img/team/abheek-dhawan.jpg',
         role: 'Guest',
         bio: 'An avid programmer and astronomer, Abheek enjoys delving into the human aspect behind science.',
         links: [
@@ -95,6 +95,13 @@ const About: NextPage = () => {
         <Layout active='home'>
             <>
                 {(() => {})()}
+                <div className={'container ml-auto mr-auto block'}>
+                    <Alert
+                        hidden={false}
+                        alertType='neutral'
+                        content={<h2 className="text-lg">Find our latest podcast episode <a href={'/podcast/ep18.m4a'} target={"_blank"}><u>(episode 18) here</u></a>!</h2>}
+                    />
+                </div>
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
@@ -273,7 +280,7 @@ const About: NextPage = () => {
                         ...or email us directly at{' '}
                         <a
                             title='hello@philosophyinpages.com'
-                            href='mailto:abheekd@protonmail.com'
+                            href='mailto:adhawan63@ladueschools.net'
                             className='underline underline-offset-2 decoration-dashed decoration-slate-500'
                         >
                             hello@philosophyinpages.com
