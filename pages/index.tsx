@@ -99,7 +99,7 @@ const About: NextPage = () => {
                     <Alert
                         hidden={false}
                         alertType='neutral'
-                        content={<h2 className="text-lg">Find our latest podcast episode <a href={'/podcast/ep18.m4a'} target={"_blank"}><u>(episode 18) here</u></a>!</h2>}
+                        content={<h2 className="text-lg">Find our latest podcast episode <a href={'/podcast/ep18.m4a'} target={"_blank"} rel={"noreferrer"}><u>(episode 18) here</u></a>!</h2>}
                     />
                 </div>
                 <motion.div
