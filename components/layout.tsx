@@ -54,7 +54,7 @@ export default function Layout({
                         .toLowerCase()
                         .split(' ')
                         .map((w) => w.charAt(0).toUpperCase() + w.slice(1)) +
-                        ' | P in P'}
+                        ' | Rabi Tagore'}
                 </title>
 
                 {/* metadata */}
