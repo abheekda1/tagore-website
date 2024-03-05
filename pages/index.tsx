@@ -17,6 +17,8 @@ import { motion } from 'framer-motion';
 
 import cx from 'classnames';
 
+import Link from 'next/link'
+
 const Index: NextPage = () => {
     const router = useRouter();
     const [messageReceivedShown, showMessageReceived] = useState(false);
@@ -50,25 +52,25 @@ const Index: NextPage = () => {
                             )}
                         >
                             <li>
-                                <a href='/anthem'>
+                                <Link href='/anthem'>
                                     <button className={cx('block p-2 my-1 pr-4 pl-3 rounded transition-colors md:my-auto border hover:border-0')}>
                                         Watch me sing Jana Gana Mana
                                     </button>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href='/about'>
+                                <Link href='/about'>
                                 <button className={cx('block p-2 my-1 pr-4 pl-3 rounded transition-colors md:my-auto border hover:border-0')}>
                                         See my interview with the Times of India
                                     </button>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
-                        <a href='/analysis'>
+                        <Link href='/analysis'>
                                 <button className={cx('text-3xl block p-2 my-1 pr-4 pl-3 rounded transition-colors md:my-auto border border-black hover:border-0')}>
-                                        A promising student's interpretation of my works
+                                        A promising student&apos;s interpretation of my works
                                     </button>
-                                </a>
+                                </Link>
                 </motion.div>
             </>
         </Layout>

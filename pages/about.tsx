@@ -51,7 +51,7 @@ const About: NextPage = () => {
 
 <strong>TOI:</strong> Can you tell us a little bit about where you come from?<br /><br />
 
-<strong>Rabindranath</strong> Certainly. I am from the Bengal region of India, and I’ve lived my whole life under British rule. As the youngest of thirteen, I wasn't as interested as my siblings in formal education and preferred to roam around and pursue my own thoughts. My father sent me to England after we traveled Indian, and I particularly recall visiting the Golden Temple in Punjab as inspiration for some of earliest works. After studying in Britain, I moved there and married my wife, before moving back to India in 1901 where I founded an ashram.
+<strong>Rabindranath</strong> Certainly. I am from the Bengal region of India, and I’ve lived my whole life under British rule. As the youngest of thirteen, I wasn&apos;t as interested as my siblings in formal education and preferred to roam around and pursue my own thoughts. My father sent me to England after we traveled Indian, and I particularly recall visiting the Golden Temple in Punjab as inspiration for some of earliest works. After studying in Britain, I moved there and married my wife, before moving back to India in 1901 where I founded an ashram.
 <br /><br />
 <strong>TOI:</strong> Quite a childhood. As one of one of the most distinguished poets and writers in Indian history, I’m sure you’ve won your fair share of awards. Would you mind sharing some of them with us?
 <br /><br />

@@ -127,7 +127,7 @@ export default function Navbar({
                             )}
                         >
                             <li>
-                                <a href='/anthem'>
+                                <Link href='/anthem'>
                                     <button
                                         className={cx(
                                             styles.navButton,
@@ -136,10 +136,10 @@ export default function Navbar({
                                     >
                                         Jana Gana Mana
                                     </button>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href='/about'>
+                                <Link href='/about'>
                                     <button
                                         className={cx(
                                             styles.navButton,
@@ -148,7 +148,7 @@ export default function Navbar({
                                     >
                                         TOI Interview
                                     </button>
-                                </a>
+                                </Link>
                             </li>
                             <li>
                                 <button

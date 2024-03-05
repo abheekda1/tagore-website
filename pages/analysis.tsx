@@ -26,10 +26,10 @@ const Analysis: NextPage = () => {
                     className='flex flex-wrap px-5 justify-center overflow-hidden pt-12 pb-8 lg:py-24 transition-all'
                 >
                     <h1 className='block w-full font-extrabold text-center text-5xl text-slate-700 dark:text-slate-50 mb-3'>
-                        "Endless Time" Analysis
+                        &quot;Endless Time&quot; Analysis
                     </h1>
                     <p className='block w-full text-center text-lg text-slate-800 dark:text-slate-400 mb-3'>
-                        Looking into the author's craft, message, motifs, and literary techniques used to create a meaning.
+                        Looking into the author&apos;s craft, message, motifs, and literary techniques used to create a meaning.
                     </p>
                     <div className='grid grid-cols-5 grid-rows-3 gap-4'>
                     <div className='row-span-3 col-span-2 flex flex-col bg-slate-50/50 text-slate-700 shadow-xl rounded-lg px-5 py-2 md:py-8'>
