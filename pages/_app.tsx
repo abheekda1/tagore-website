@@ -4,9 +4,9 @@ import { useEffect } from 'react';
 import { init } from '@socialgouv/matomo-next';
 
 function MyApp({ Component, pageProps }: AppProps) {
-    useEffect(() => {
-        init({ url: 'https://matomo.adawesome.tech/', siteId: '1' });
-    });
+    // useEffect(() => {
+    //     init({ url: 'https://matomo.adawesome.tech/', siteId: '1' });
+    // });
 
     return <Component {...pageProps} />;
 }

@@ -91,7 +91,7 @@ export default function Layout({
             </Head>
             <div className={cx({ dark: isDarkMode }, 'transition-colors')}>
                 <div
-                    className={cx('bg-slate-50 dark:bg-slate-700 h-full', {
+                    className={cx('bg-gradient-to-tr from-green-500 from-5% via-slate-200 via-50% to-orange-500 to-95% h-full', {
                         dark: isDarkMode,
                     })}
                 >

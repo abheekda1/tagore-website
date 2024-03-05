@@ -39,7 +39,7 @@ export default function Navbar({
                             className='mr-2'
                         />{' '}
                         <span className='self-center text-xl font-semibold whitespace-nowrap text-slate-700 md:text-slate-700 dark:text-white'>
-                            Philosophy in Pages
+                            Rabi Tagore
                         </span>
                     </a>
                 </Link>
@@ -65,7 +65,7 @@ export default function Navbar({
                             )}
                         >
                             <li>
-                                <Link href='#'>
+                                <Link href='/'>
                                     <a
                                         className={cx(styles.navLink, {
                                             'bg-blue-700 md:bg-transparent text-slate-50 md:text-blue-600 dark:text-white':
@@ -79,7 +79,7 @@ export default function Navbar({
                                 </Link>
                             </li>
                             <li>
-                                <Link href='#about'>
+                                <Link href='/about'>
                                     <a
                                         className={cx(styles.navLink, {
                                             'bg-blue-700 md:bg-transparent text-slate-50 md:text-blue-600 dark:text-white':
@@ -93,16 +93,30 @@ export default function Navbar({
                                 </Link>
                             </li>
                             <li>
-                                <Link href='#contact-us'>
+                                <Link href='/analysis'>
                                     <a
                                         className={cx(styles.navLink, {
                                             'bg-blue-700 md:bg-transparent text-slate-50 md:text-blue-600 dark:text-white':
-                                                active === 'contact',
+                                                active === 'analysis',
                                             'text-gray-700 border-gray-100 hover:bg-gray-50 md:hover:bg-transparent dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:hover:text-white dark:border-gray-700':
-                                                active !== 'contact',
+                                                active !== 'analysis',
                                         })}
                                     >
-                                        Contact
+                                        Analysis
+                                    </a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href='/poem'>
+                                    <a
+                                        className={cx(styles.navLink, {
+                                            'bg-blue-700 md:bg-transparent text-slate-50 md:text-blue-600 dark:text-white':
+                                                active === 'poem',
+                                            'text-gray-700 border-gray-100 hover:bg-gray-50 md:hover:bg-transparent dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:hover:text-white dark:border-gray-700':
+                                                active !== 'poem',
+                                        })}
+                                    >
+                                        Original Poem
                                     </a>
                                 </Link>
                             </li>
@@ -113,26 +127,26 @@ export default function Navbar({
                             )}
                         >
                             <li>
-                                <a href='#learn-more'>
+                                <a href='/anthem'>
                                     <button
                                         className={cx(
                                             styles.navButton,
                                             styles.blue
                                         )}
                                     >
-                                        Learn more
+                                        Jana Gana Mana
                                     </button>
                                 </a>
                             </li>
                             <li>
-                                <a href='#get-started'>
+                                <a href='/about'>
                                     <button
                                         className={cx(
                                             styles.navButton,
                                             styles.blue
                                         )}
                                     >
-                                        Get started
+                                        TOI Interview
                                     </button>
                                 </a>
                             </li>

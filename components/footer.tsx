@@ -112,8 +112,8 @@ export default function Footer() {
             </div>
 
             <div className='text-center'>
-                &copy; 2023{' '}
-                <a href='#'>Philosophy in Pages. All rights reserved.</a>
+                &copy; 2024 (1914){' '}
+                <a href='#'>Rabi Tagore. All rights reserved.</a>
             </div>
         </footer>
     );
